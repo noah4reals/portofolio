@@ -6,25 +6,6 @@
     font-family: 'heebo', sans-serif;
 }
 :root{
-    --text-color: black;
-    --text-color2: #fff;
-    --text-blue-color:#303f9f;
-    --background-color: #fff;
-    --background-white-color: aliceblue;
-    --backgroud-2:#dbedf2;
-    --box-shadow-color: rgb(0, 0, 0, 0.1);
-    --a-active: #71732c;
-    --about-color: #dbedf2;
-    --button-hover: #1a237e;
-    --footer-hover:#254065;
-
-}
-body{
-    color: var(--text-color);
-    background-color: var(--background-color);
-    transition:all 0.6s ease;
-}
-.dark-theme{
     --text-color: #fff;
     --text-color2: #070F2B;
     --text-blue-color:#92C7CF;
@@ -37,6 +18,25 @@ body{
     --about-color: #002d61;
     --button-hover: #146C94;
     --footer-hover:#91C8E4;
+
+}
+body{
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition:all 0.6s ease;
+}
+.dark-theme{
+    --text-color: black;
+    --text-color2: #fff;
+    --text-blue-color:#303f9f;
+    --background-color: #fff;
+    --background-white-color: aliceblue;
+    --backgroud-2:#dbedf2;
+    --box-shadow-color: rgb(0, 0, 0, 0.1);
+    --a-active: #71732c;
+    --about-color: #dbedf2;
+    --button-hover: #1a237e;
+    --footer-hover:#254065;
 }
 nav .nav-links li{
     cursor: pointer;
