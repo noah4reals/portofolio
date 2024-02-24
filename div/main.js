@@ -1,15 +1,15 @@
 
 var icons = document.getElementById("toggleDark");
 
-// Check for existing user preference in localStorage
-var preferredMode = localStorage.getItem('darkMode');
+// // Check for existing user preference in localStorage
+// var preferredMode = localStorage.getItem('darkMode');
 
-// Set initial body class based on preference or system setting
-if (preferredMode === 'dark') {
-    document.body.classList.add('dark-theme');
-} else {
-    document.body.classList.remove('dark-theme');
-}
+// // Set initial body class based on preference or system setting
+// if (preferredMode === 'dark') {
+//     document.body.classList.add('dark-theme');
+// } else {
+//     document.body.classList.remove('dark-theme');
+// }
 //function to toggle the modes
 icons.onclick = function(){
     
